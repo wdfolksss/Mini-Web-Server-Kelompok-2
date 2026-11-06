@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
     res.send('Selamat Datang Di Server Kelompok 2, Server Berjalan Dengan Cepat!');
 });
 
-app.get('/data', (req, res) => {
+app.get('/anggota', (req, res) => {
     res.json(student);
 });
 
